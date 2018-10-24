@@ -1,5 +1,7 @@
 package com.sample
 
+import lombok.Data;
+
   @Data
   class Book{
   final String title;
@@ -7,4 +9,5 @@ package com.sample
   Book(String title){
   this.title = title;
   }
+    
  }
